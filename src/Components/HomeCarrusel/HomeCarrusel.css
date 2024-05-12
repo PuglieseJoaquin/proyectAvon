@@ -18,7 +18,7 @@
 
 .HomeCarruselContainer > ul > li > img {
     width: 100%;
-    height: auto; /* Para mantener la proporción de aspecto */
+    height: 56vh; /* Para mantener la proporción de aspecto */
 }
 
 @keyframes slide {

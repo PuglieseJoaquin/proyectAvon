@@ -5,7 +5,7 @@ function ProductsOffers(){
     return(
         <div className="ProductsOffersContainer">
             <div className="ProductsOffersContainerImage">
-                <img src="src\assets\image\OffertsImage.png" alt="Image de Revista" />
+                <img src="https://nuevasrevistas.com/revistas/co/avon/catalogo_2024_03/1.webp" alt="Image de Revista" />
             </div>
             <div className="ProductsOffersContainerText">
                 <h3>¿Quieres saber sobre los productos disponibles en esta campaña?</h3>
