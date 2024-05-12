@@ -106,3 +106,18 @@
         text-align: center;
     }
 }
+@media (max-width: 601px) {
+    .CartCardContainer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+    }
+    .CartCardContainerPriceUnid > button{
+        margin-bottom: 10px;
+    }
+    .CartCardContainerImage > img{
+        border-radius: 10px;
+        border: 1px rgb(204, 203, 203) solid;  
+    }
+}

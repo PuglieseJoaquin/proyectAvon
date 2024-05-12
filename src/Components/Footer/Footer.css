@@ -32,7 +32,7 @@
 }
 @media(max-width:764px){
     .Footer {
-        margin-top: 280vh;
+        margin-top: 230vh;
     }
     .FooterLogo>img{
         width: 250px;
