@@ -50,9 +50,9 @@ function CartTable() {
                     </div>
                     <h4>Opciones de pago</h4>
                     <div className='CartTableTotalsImages'>
-                        <img src="src\assets\image\logo-visa.png" alt="Visa logo" />
-                        <img src="src\assets\image\Mastercard-logo.svg.png" alt="Master Card logo" />
-                        <img src="src\assets\image\Mercado Pago.jpg" alt="Mercado Libre Logo" />
+                        <img src="https://w7.pngwing.com/pngs/314/877/png-transparent-visa-logo-credit-card-debit-card-mastercard-logo-visa-go-blue-text-trademark.png" alt="Visa logo" />
+                        <img src="https://brandemia.org/sites/default/files/sites/default/files/logo_mastercard-despues.jpg" alt="Master Card logo" />
+                        <img src="https://d2r9epyceweg5n.cloudfront.net/apps/5576-es_AR-Mercado%20Pago.jpg" alt="Mercado Libre Logo" />
                     </div>
                 </div>
 

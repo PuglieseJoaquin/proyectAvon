@@ -19,7 +19,7 @@ function Contact() {
                         <h2>Listo!!!</h2>
                         <p>Tu mensaje quedo registrado y pronto te llegara una respuesta</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet totam modi culpa iste quia ipsum voluptatum, vitae velit error alias veniam minus porro possimus nam odio quae corrupti libero voluptatem?</p>
-                        <img src="src\assets\image\img-contact.jpg" alt="Imagen de contacto" />
+                        <img src="https://media.licdn.com/dms/image/C4D16AQFQSyTZynxvnA/profile-displaybackgroundimage-shrink_350_1400/0/1518200961556?e=1721260800&v=beta&t=IRa1WLUNbHSnFS7KjGynj66RO_KuEbBRH6_RkjMKlls" alt="Imagen de contacto" />
                     </div>
                 </>
             ) : (
