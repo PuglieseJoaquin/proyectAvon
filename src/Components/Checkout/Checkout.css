@@ -1,0 +1,109 @@
+.Checkout{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CheckoutContainer{
+    background: linear-gradient(
+        50deg,
+        rgb(185, 100, 164) 50%,
+        rgba(255, 73, 225, 0.349)
+    ),
+    url('https://img.freepik.com/fotos-premium/tema-venta-al-menor-mini-carrito-compras-carrito-compras-pequeno-sobre-fondo-papel-rosa_486333-1038.jpg'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    min-height: 100vh;
+    width: 1000px;
+    border-radius: 25px;
+}
+.CheckoutContainer > h2{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.CheckoutContainer > form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.CheckoutContainer > form > label{
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 8px;
+}
+.CheckoutContainer > form > input, select{
+    padding: 10px 7px;
+    background-color: rgb(104, 103, 103);
+    border: 1px gray solid;
+    transition: 0.3s;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.CheckoutContainer > form > input:focus, select:focus{
+    outline: none;
+}
+.CheckoutContainer > form > input:hover, select:hover{
+    border: 1px solid black;
+}
+.CheckoutContainer > form > button{
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    outline: 0px;
+    background-color: rgb(255, 157, 247);
+    color: white;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+}
+.CheckoutContainer > form > button:hover{
+    background-color: rgb(255, 125, 244);
+}
+.CheckoutContainer > p{
+    color: white;
+}
+.CheckoutContainer > a{
+    margin-top: 15px;
+    margin-left: 140px;
+    padding: 10px 25px;
+    display: inline-block;
+    background-color: #ff5aa4;
+    color:white;
+    font-size: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+.CheckoutContainer > a:hover{
+    background-color: #ff96c5;
+    outline: #ff5aa4 solid 2px; 
+    cursor: pointer;
+    box-sizing: border-box;
+}
+@media(max-width:991px){
+    .Checkout{
+        padding: 30px;
+    }
+    .CheckoutContainer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .CheckoutContainer > h2{
+        font-size: 32px;
+    }
+    .CheckoutContainer > form{
+        width: 100%;
+    }
+}

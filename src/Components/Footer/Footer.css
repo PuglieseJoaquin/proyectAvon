@@ -1,0 +1,40 @@
+.Footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150vh; 
+    flex-direction: column;
+}
+.FooterLogo>img {
+    width: 400px;
+    height: auto;
+}
+
+.FooterIcons {
+    border-top: solid #ffffff 1px;
+    margin: 4px;
+}
+
+.FooterIcon {
+    margin-top: 10px;
+    margin: 20px 30px;
+    color: white;
+}
+@media(max-width:900px){
+    .Footer{
+        margin-top: 80vh;
+    }
+}
+@media(max-width:764px){
+    .Footer {
+        margin-top: 280vh;
+    }
+    .FooterLogo>img{
+        width: 250px;
+    }
+}

@@ -1,0 +1,44 @@
+.CartContainerVacio {
+    padding: 40px 80px;
+}
+
+.CartContainerVacio>p {
+    padding-bottom: 20px;
+}
+
+.CartContainerVacio>a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    padding: 9px 10px;
+    font-size: 17px;
+    font-weight: 600;
+    transition: 0.3s;
+    background-color: rgb(230, 230, 230);
+    border: 2px solid rgb(0, 0, 0);
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+}
+
+.CartContainerVacio>a:hover {
+    background-color: #ff4d4d;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+}
+
+@media (max-width: 764px) {
+    .CartContainerVacio>h1 {
+        font-size: 18px;
+    }
+    .CartContainerVacio>p {
+        font-size: 14px;
+    }
+    .CartContainerVacio>a {
+        width: 90px;
+        padding: 8px 10px;
+        font-size: 13px;
+        font-weight: 600;
+    }
+}
