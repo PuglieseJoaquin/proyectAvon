@@ -11,7 +11,7 @@ function About() {
                     <p>La misión de Avon ha variado a lo largo de los años, pero generalmente se centra en empoderar a las mujeres y enriquecer sus vidas. Avon se ha comprometido a brindar oportunidades económicas a las mujeres a través de la venta directa de productos de belleza y cuidado personal. Además, la empresa se ha destacado por su apoyo a causas sociales, como la lucha contra el cáncer de mama y la violencia doméstica.</p>
                     <p>La visión de Avon es crear un mundo en el que todas las mujeres puedan alcanzar su máximo potencial, tanto en el aspecto económico como en el personal. La empresa aspira a ser líder en la industria de la belleza y el cuidado personal, ofreciendo productos de alta calidad que satisfagan las necesidades y deseos de sus clientes en todo el mundo.</p>
                     </div>
-                    <img src="src\assets\image\avon-About.jpg" alt="Imagen Avon" />
+                    <img src="https://trabajaconavon.com/wp-content/uploads/2021/04/Captura-de-pantalla-110-1024x523.png" alt="Imagen Avon" />
                 </div>
             </div>
 

@@ -8,7 +8,7 @@ function Footer() {
     return (
         <footer className="Footer">
             <div className="FooterLogo">
-                <img src="src\assets\image\avon-footer.jpg" alt="Footer logo" />
+                <img src="https://www.avon.com/magnoliaPublic/dam/jcr:584f9b10-7da1-42b8-aff3-9543c85e5ed2/avon-logo-white-on-black.jpg" alt="Footer logo" />
             </div>
             <div className="FooterIcons">
                 <Link to="https://www.facebook.com/?locale=es_LA" className="FooterIcon">

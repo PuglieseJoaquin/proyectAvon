@@ -9,7 +9,7 @@ function Home() {
         <div>
             <div className="HomeContent">
                 <div className="HomeImg">
-                    <img src="src\assets\image\Avon - Campaign 22 Brochure.jpg" alt="Imagen Portada" />
+                    <img src="https://i.pinimg.com/originals/4a/0a/df/4a0adf0e5e37207a42b910214f38a2bc.png" alt="Imagen Portada" />
                 </div>
                 <div className="HomeText">
                     <h1>Ofertas Especiales</h1>
