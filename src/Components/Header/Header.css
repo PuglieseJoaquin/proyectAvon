@@ -1,0 +1,132 @@
+/*Estilos para del Header en general*/
+.HeaderContainer{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #fff;
+}
+/* Parte de arriba del Header*/
+.HeaderContainerTop{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Imagen */
+.HeaderLogoIcon > img{
+    width: 190px;
+    height: 70px;
+    margin-right: 100px;
+}
+/* Barra de navegacion */ 
+.HeaderNavigationBar{
+    padding: 5px;
+    position: relative;
+    border: black 1px solid;
+    border-radius: 5px;
+}
+.HeaderNavigationBar > input{
+    width: 350px;
+    padding: 10px;
+    padding-right: 35px;
+    border-radius: 5px 0 0 5px;
+    border: 0;
+    outline: none;
+    font-size: 1rem;
+}
+.HeaderNavigationBar > button{
+    background-color: #f4718b;
+    padding: 10px 15px;
+    position: absolute;
+    border: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 0 5px 5px 0;
+    color:#fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.HeaderNavigationBar > button:hover{
+    color: #f4718b;
+    background-color: #ffe4e4;
+    border-radius: 0px 5px 5px 0px;
+}
+
+/*Icons*/
+.HeaderIconsLinks{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-right: 20px;
+}
+.HeaderIconsLinks > a{
+    color: #000;
+    text-decoration: none;
+    position: relative;
+}
+.HeaderIconsLinks > a:hover{
+    color: grey;
+}
+.HeaderIconsLinks > a > svg{
+    width: 60px;
+}
+
+/*Liks*/
+.HeaderContainer > nav{
+    display: flex;
+    gap: 40px;
+}
+.HeaderContainer > nav > a{
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+.HeaderContainer > nav > a:hover{
+    color: gray;
+}
+.CartLinkItemCount{
+    position: absolute;
+    top: -10px;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #ffcfd8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width:1024px) {
+    .HeaderNavigationBar{
+        display: none;
+    }
+}
+@media (max-width: 600px){
+    .HeaderLogoIcon > img{
+        height: 55px;
+        width: auto;
+    }
+    .HeaderIconsLinks > a > svg{
+        width: 20px;
+    }
+    .CartLinkItemCount{
+        width: 12px;
+        height: 12px;
+        font-size: 10px;
+    }
+    .HeaderContainer > nav{
+        align-items: center;
+    }
+    .HeaderContainer > nav > a{
+        text-align: center;
+        font-size: 14px;
+    }
+}

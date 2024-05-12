@@ -1,0 +1,95 @@
+.ProductCard {
+    width: calc(25% - (60px / 4));
+    /*Le restamos el Gap + sacar espacios*/
+    background: #fff3e3;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ProductCard>img {
+    width: calc(100% - 10px);
+    height: auto;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.ProductCard>h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(53, 53, 53);
+    padding: 0 15px;
+}
+
+.ProductCard>p {
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    padding-left: 15px;
+}
+
+.ProductCard>span {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    padding-left: 15px;
+}
+
+.ProductCardDetailContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+.ProductCardDetail {
+    width: 90px;
+    height: 42px;
+    background-color: palevioletred;
+    border: 1px solid black;
+    transition: 0.3s;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.ProductCardDetail:hover {
+    background-color: rgb(255, 172, 186);
+}
+
+.ProductCardDetail>a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+@media(max-width:900px) {
+    .ProductCard>h3 {
+        font-size: 18px;
+        font-weight:600;
+        padding: 0 10px;
+        text-align: center;
+    }
+    .ProductCard>span{
+        font-size: 15px;
+    }
+    .ProductCard>p{
+        display: none;
+    }
+}
+
+@media(max-width:768px){
+    .ProductCard {
+        width: 40% ;
+    }
+    .ProductCard>p{
+        display: inline-block;
+        text-align: center;
+        font-size: 12px;
+    }
+
+}
