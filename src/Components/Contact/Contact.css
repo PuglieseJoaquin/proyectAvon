@@ -164,3 +164,11 @@ textarea {
         margin-left: 180px;
     }
 }
+@media (max-width: 540px){
+    .ContactMensaje > img{
+        width: 80vw;
+    }
+    .ContactMensaje > p{
+        font-size: 10px;
+    }
+}
