@@ -93,3 +93,8 @@
         margin: 5px;
     }
 }
+@media(max-width:500px){
+    .ProductCard>h3{
+        font-size: 14px;
+    }
+}

@@ -96,4 +96,8 @@
     .AboutContainerMap > p{
         text-align: center;
     }
+    .AboutContainerImage > img{
+        width: 50vw;
+        height: auto;
+    }
 }

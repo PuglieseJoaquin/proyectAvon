@@ -114,6 +114,9 @@
         height: 55px;
         width: auto;
     }
+    .HeaderIconsLinks{
+        margin-right: 5px;
+    }
     .HeaderIconsLinks > a > svg{
         width: 20px;
     }
